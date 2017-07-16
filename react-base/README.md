@@ -8,5 +8,5 @@ yarn add --dev webpack webpack-dev-server babel-core babel-loader babel-preset-r
 echo '{"presets":["react"]}' > .babelrc
 ```
 ### note:
-1. babel config has two ways to set: .babelrc or package.json of "babel" value.
+1. babel config has two ways to set: .babelrc , package.json of "babel" value , or babel-loader's query in webpack config.
 2. webpack 3 Has supported ES2015, but it must be ensured that Node() of the local environment should be supported, otherwise it only use CommonJS modules.
