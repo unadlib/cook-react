@@ -6,10 +6,12 @@
     ```base
     yarn add --dev babel-preset-es2015-native-modules
     ```
+
     Add babel config preset:
     ```node
     ["es2015", {modules: false}]
     ```
+
     Run webpack with argument "--optimize-minimize" or use UglifyJsPlugin.(bundle.js 1M->225K)
     ```node
     new webpack.optimize.UglifyJsPlugin({
@@ -20,6 +22,7 @@
     })
     ```
     (It must install babel-preset-es2015-native-modules)
+
     Add plugin(bundle.js 225K->147K):
     ```node
     new webpack.DefinePlugin({
