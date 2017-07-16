@@ -65,3 +65,7 @@ typings/
 .idea/**
 .idea/misc.xml
 .idea/vcs.xml
+.idea/cook-react.iml
+.idea/modules.xml
+.idea/workspace.xml
+*/yarn.lock
